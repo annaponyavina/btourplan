@@ -1084,6 +1084,9 @@ template {
   .reviews-slider__item {
     max-width: 580px;
   }
+  .reviews__title {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1213,6 +1216,9 @@ template {
   }
   .subscribe {
     width: 100%;
+  }
+  .reviews__title {
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */
