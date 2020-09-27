@@ -1,11 +1,12 @@
 @media screen and ( max-width: 1200px )
     .container
         max-width: 960px
-    .slider
-        width: 590px
+    .hotel
+        &-slider
+            width: 590px
     .swiper
         &-slide
-            &__img
+            &__image
                 height: 100%
                 width: 100%
                 object-fit: cover
@@ -32,11 +33,11 @@
             margin-bottom: 30px
         &-right
             flex-direction: row
+        &-slider
+            width: 100%
+            background-repeat: no-repeat
     .booking
         width: 50%
-    .slider
-        width: 100%
-        background-repeat: no-repeat
     .map
         width: 340px
 @media screen and ( max-width: 768px )
@@ -79,12 +80,11 @@
             &__offer
                 order: -1
                 margin-left: 0
-    .slider
-        height: 350px
-    .hotel
         &-right
             flex-direction: column
             min-height: 450px
+        &-slider
+            height: 350px
     .booking, .map
         width: 100%
     .newsletter
@@ -96,9 +96,9 @@
 @media screen and ( max-width: 576px )
     .logo
         width: 99px
-    .slider
-        height: 250px
     .hotel
+        &-slider
+            height: 250px
         &__slider
             margin-bottom: 20px
     .newsletter
@@ -107,5 +107,3 @@
             margin-bottom: 37px
     .subscribe
         width: 100%
-
-    
