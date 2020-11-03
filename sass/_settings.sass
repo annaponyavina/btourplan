@@ -13,7 +13,7 @@ button
     outline: none
     &:hover
         cursor: pointer
-input
+input, textarea
     &:focus
         outline: none
 .input
@@ -45,3 +45,7 @@ input
     align-items: center
     justify-content: space-between
     flex-wrap: wrap
+.invalid
+    color: $primary
+    &::placeholder
+        color: $primary
